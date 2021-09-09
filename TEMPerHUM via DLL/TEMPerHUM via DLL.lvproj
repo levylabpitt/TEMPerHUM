@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="RDingUSB.dll" Type="Document" URL="../RDingUSB.dll"/>
+		</Item>
 		<Item Name="Converter to T&amp;H.vi" Type="VI" URL="../Converter to T&amp;H.vi"/>
 		<Item Name="Fetch variable.vi" Type="VI" URL="../Fetch variable.vi"/>
 		<Item Name="Obtain var refnum.vi" Type="VI" URL="../Obtain var refnum.vi"/>
@@ -66,7 +69,6 @@
 			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RDingUSB.dll" Type="Document" URL="../RDingUSB.dll"/>
 			<Item Name="SCT Default Types.ctl" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Default Types.ctl"/>
 			<Item Name="SCT Get LVRTPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get LVRTPath.vi"/>
 			<Item Name="SCT Get Types.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get Types.vi"/>
