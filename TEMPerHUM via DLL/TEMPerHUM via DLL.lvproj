@@ -12,16 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="build support" Type="Folder">
-			<Item Name="RDingUSB.dll" Type="Document" URL="../TEMPerHUM/RDingUSB.dll"/>
-		</Item>
-		<Item Name="TEMPerHUM" Type="Folder">
-			<Item Name="Converter to T&amp;H.vi" Type="VI" URL="../TEMPerHUM/Converter to T&amp;H.vi"/>
-			<Item Name="Read from device.vi" Type="VI" URL="../TEMPerHUM/Read from device.vi"/>
-		</Item>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="RDingUSB.dll" Type="Document" URL="../RDingUSB.dll"/>
-		</Item>
+		<Item Name="build support" Type="Folder"/>
+		<Item Name="TEMPerHUM.lvlib" Type="Library" URL="../TEMPerHUM/TEMPerHUM.lvlib"/>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
